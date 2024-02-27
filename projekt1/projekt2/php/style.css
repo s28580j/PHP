@@ -1,0 +1,168 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    background-color: #f7edf0;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    color: #e27396;
+}
+#userAvatar{
+    text-align: right;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #e27396;
+    text-align: center;
+    width: 18%;
+    padding: 14px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #be97c6;
+    color: #e27396;
+}
+.main{
+    margin: 100px 10%;
+    padding: 5px 5px;
+    bottom: 0;
+    overflow: auto;
+    display: block;
+    background-color: #f7edf0;
+    border: 1px solid black;
+}
+.avatar{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.miniAvatar{
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.post{
+    padding: 0 15%;
+
+
+
+
+}
+.content{
+    text-align: center;
+}
+
+
+form{
+    margin: 20px;
+    max-width: 100%;
+    padding: 16px;
+    background-color: #f7edf0;
+    text-align: center;
+
+}
+input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button[type=submit], input[type=submit]{
+    background-color: #E27396;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+button[type=submit]:hover, input[type=submit]:hover{
+    opacity: 1;
+    background: #be97c6;
+
+}
+
+#register {
+    background-color: #E27396;
+    color: white;
+    padding: 16px 88px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    text-decoration: none;
+}
+#register:hover{
+    opacity: 1;
+    text-decoration: none;
+    background: #be97c6;
+}
+#zegar{
+    text-align: center;
+    background-color: #E27396;
+    color: black;
+    padding: 16px 20px;
+    opacity: 0.9;
+}
+
+.posttopic {
+    background-color: #E27396;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.posttopic:hover {
+    opacity: 1;
+    text-decoration: none;
+    background: #be97c6;
+}
+
+h1 {
+    text-align: center;
+    color: #e27396;
+}
+h3 {
+    text-align: center;
+    color: #e27396;
+}
+h4, .content {
+    color: #e27396;
+text-decoration: none;
+}
+
+h4:hover {
+    opacity: 1;
+    text-decoration: none;
+}
